@@ -1,12 +1,12 @@
-<?php 
+<?php
 	if (isset($_POST['submit'])) {
 		$from = $_POST['email'];
 		$to = 'clevelandwilliams3579@gmail.com';
 		$subject = 'Email signup';
 		$body = 'Please sign me up to the mailing list';
-		
+
 		if (!$_POST['email']) {
-			$emailError = '<div class="text-danger"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> &nbsp;Please enter a valid email address</div>';
+				$emailError = '<div class="text-danger"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> &nbsp;Please enter a valid email address</div>';
 		}
 		if (!$emailError) {
 			  if (mail ($to, $subject, $body, $from)) {
@@ -26,7 +26,7 @@
 		<!-- Required meta tags -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<title>Landing Page</title>
+		<title>Coding Ninjas</title>
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 		<link rel="stylesheet" href="http://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.css">

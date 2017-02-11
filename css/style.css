@@ -1,5 +1,4 @@
 html, body {
-	color: red;
 	background:url(../img/dojo.jpg) center center no-repeat;
 	height: 100%;
 	background-size: cover;
@@ -20,7 +19,7 @@ html, body {
 
 @media(min-width:321px)
 	and (max-width:568px) {
-	
+
 		#logo img {
 			width: 20%;
 		}
@@ -45,12 +44,16 @@ html, body {
 	margin: -15px 0 0;
 }
 
+#icons {
+  text-align: center;
+}
+
 #icons .fa {
 	color: #fff;
 	margin: 5px 15px;
 	position: relative;
 	bottom: 0;
-	transition:all 0.2s ease-in-out; 
+	transition:all 0.2s ease-in-out;
 }
 
 #icons .facebook:hover {
@@ -75,7 +78,7 @@ html, body {
 
 #icons .github:hover {
 	bottom: 5px;
-	color: #006400;
+	color: #1F76B6;
 }
 
 #signup {
