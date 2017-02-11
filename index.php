@@ -81,7 +81,7 @@
 		<section id="signup">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-3">
+					<div class="col-md-12">
 						<form action="#signup" class="form-inine" role="form" method="post">
 							<input type="email" name="email" class="form-control form-control-sm" placeholder="Enter your email">
 							<button type="submit" class="btn btn-signup btn-sm" name="submit" value="send">find out more</button>

@@ -106,3 +106,7 @@ html, body {
 #signup .form-inline {
 	display: block;
 }
+
+.form-control {
+	margin: 0 auto;
+}
