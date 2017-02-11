@@ -83,7 +83,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<form action="#signup" class="form-inine" role="form" method="post">
-							<input type="email" name="email" class="form-control form-control-sm" placeholder="Enter your email">
+							<input type="email" name="email" class="form-control form-control-sm col-xs-3" placeholder="Enter your email">
 							<button type="submit" class="btn btn-signup btn-sm" name="submit" value="send">find out more</button>
 						</form>
 						<?php echo $emailError;?>
